@@ -23,7 +23,7 @@ public class Application {
         Juego.AgregarCarroACarril(1, rojo);
         Juego.AgregarCarroACarril(2, azul);
         Juego.AgregarCarroACarril(3, verde);
-        Juego.AgregarCarroACarril(4, blanco); //ver error
+        Juego.AgregarCarroACarril(4, blanco); 
 
         Podio podio=juego.iniciar_juego();
         System.out.println(podio);
