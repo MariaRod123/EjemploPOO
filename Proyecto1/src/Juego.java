@@ -22,7 +22,7 @@ public class Juego {
         if(Objects.isNull(carro.conductor())){
             throw new IllegalArgumentException("El carro no tiene conductor");
         }
-        pista.AgregarCarroACarril(carril, carro); /// buscar error
+        pista.AgregarCarroACarril(carril, carro); 
     }
 
     public Podio iniciar_juego(){
