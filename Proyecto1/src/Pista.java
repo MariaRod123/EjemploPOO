@@ -33,7 +33,7 @@ public class Pista {
 
 
     public void AgregarCarroACarril(Integer num_carril, Carro carro){
-        carriles.get(num_carril).AgregarCarro(carro); //buscar error
+        carriles.get(num_carril).AgregarCarro(carro);
 
     }
 }
