@@ -44,15 +44,10 @@ public class Carril {
                int metros=kilometros()*1000;
                return (100 * carro.metros())/metros;
 
-
-
            }
        }throw new IllegalArgumentException("No existe el carro");
 
    }
-
-
-
 
 }
 
